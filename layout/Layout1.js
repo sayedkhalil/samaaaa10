@@ -115,11 +115,7 @@ crossOrigin="anonymous"></script>
     <a className="nav-link text-dark " >سجل كتاجر</a>
     </Link>
   </li>
-  <li className="nav-item ">
-    <Link href="/captain">
-    <a className="nav-link text-dark " >سجل كمندوب</a>
-    </Link>
-  </li>
+  
   <li className="nav-item ">
     <Link href="/aboute">
     <a className="nav-link text-dark " >من نحن</a>
@@ -158,11 +154,7 @@ crossOrigin="anonymous"></script>
           <a className="nav-link  " href='/aboute'>من نحن</a>
              
        </li>
-       <li className="nav-item text-end ms-auto"  onClick={()=>setnav("nav-side")}>
-             
-             <a className="nav-link  " href='/captain'>سجل كمندوب</a>
-                
-          </li>
+      
           <li className="nav-item text-end ms-auto"  onClick={()=>setnav("nav-side")}>
              
              <a className="nav-link  " href='/restraunt'>سجل كتاجر</a>
@@ -254,11 +246,7 @@ crossOrigin="anonymous"></script>
     <div className="col-11 col-lg-5 ">
     <ul className="row text-center list-unstyled">
      
-       <li className="col-6" >
-             <Link href={`/captain`}>
-    <a className="text-decoration-none text-dark " >سجل كمندوب</a>
-             </Link>
-       </li>
+
        <li className="col-6" >
              <Link href={`/restraunt`}>
     <a className="text-decoration-none text-dark " >سجل كتاجر</a>
@@ -272,29 +260,11 @@ crossOrigin="anonymous"></script>
     <ul className="row text-end list-unstyled">
         <li className="col-12 text-lift">
           <span className="text-dark">
-           {info.adress?info.adress:""}
+           {info.adress?info.adress:"المملكة العربية السعودية -الرياض"}
           </span>
         <i className="fas fa-map-marker-alt p-2"></i>
           </li>
-          <li className="col-12 text-lift">
-          <span className="text-dark">
-           {info.tele?info.tele:""}
-          </span>
-          <i className="fas fa-phone-square-alt p-2"></i>
-          </li>
-          <li className="col-12 text-lift p-2">
-          <span className="text-dark">
-           {info.tele?info.tele:""}
-          </span>
-          <i className="fas fa-mobile p-2"></i>
-          </li>
-          <li className="col-12 text-lift">
-          <span className="text-dark">
-           {info.email?info.email:""}
-          </span>
-          <i className="fas fa-at p-2"></i>
-          </li>
-          
+     
         
     </ul>
 </div>
