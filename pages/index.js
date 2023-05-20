@@ -13,6 +13,7 @@ import { collection, addDoc ,getDocs,doc,Timestamp,deleteDoc , setDoc,getDoc, qu
 import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import Mazaya from '../layout/s'
 import Rest from '../layout/rest'
+import Owner from '../layout/owner'
 
 export default function Home({getdata}) {
   return (
@@ -30,7 +31,9 @@ export default function Home({getdata}) {
            <About data={getdata.getinfo}/>
            <Partener data={getdata.getpart}/>
            <Mazaya/>
+           <Owner/>
            <Rest/>
+           
               <Productes/>
           {/* <Productes data={JSON.parse(getdata.products)} /> */}
          
