@@ -31,17 +31,16 @@ const Mazaya = () => {
      </p>
   </div>
   <div className="d-block d-lg-none ">
-   <p className="text-dark text-end">توفير افضل المنتجات بأسعار مناسبة وعروض حصرية 
- </p>
+  <p className="text-dark  text-end">
+     منتجات تجدونها حصرياً فقط على تطبيق السمى
+     </p>
    <p className="text-dark  text-end">
    نوفر لك كافة الامكانيات لضمان وصول شحنتك بأسرع وقت ممكن 
 
      </p>
      <p className="text-dark text-end">توفير وتسهيل كافة خيارات الدفع الإلكتروني</p>
 
-     <p className="text-dark  text-end">
-     منتجات تجدونها حصرياً فقط على تطبيق السمى
-     </p>
+   
 
      </div>
   </div>

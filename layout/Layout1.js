@@ -252,15 +252,19 @@ crossOrigin="anonymous"></script>
 </div>
 <div className="row justify-content-around">
     <div className="col-11 col-lg-5 ">
-    <h5 className="card-title text-center text-primary">أقسامنا</h5>
     <ul className="row text-center list-unstyled">
-       { category.map((item) => (
-       <li className="col-6" key={item.name}>
-             <Link href={`/${item.name}`}>
-    <a className="text-decoration-none text-dark " >{item.name}</a>
+     
+       <li className="col-6" >
+             <Link href={`/captain`}>
+    <a className="text-decoration-none text-dark " >سجل كمندوب</a>
              </Link>
        </li>
-            ))}
+       <li className="col-6" >
+             <Link href={`/restraunt`}>
+    <a className="text-decoration-none text-dark " >سجل كتاجر</a>
+             </Link>
+       </li>
+      
     </ul>
     </div>
     <div className="col-11 col-lg-5 ">

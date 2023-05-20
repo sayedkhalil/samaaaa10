@@ -31,8 +31,7 @@ export default function Home({getdata}) {
            <Partener data={getdata.getpart}/>
            <Mazaya/>
            <Rest/>
-          <Opnion/>
-          <Productes/>
+              <Productes/>
           {/* <Productes data={JSON.parse(getdata.products)} /> */}
          
       
