@@ -16,8 +16,8 @@ const Owner = () => {
 
  </div>
 <div className="col-12 col-lg-6 rel row p-2">
-<img className="col-4 " src="av01.png" alt=""/>
-<div className="col-8 rel">
+<img className="col-2 " src="av01.png" alt=""/>
+<div className="col-10 rel">
 <h5 className="vertical-center">أ/ الهنوف بنت إبراهيم بن حسان 
 </h5>
 </div>
