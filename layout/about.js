@@ -19,8 +19,8 @@ const About = (props) => {
             <p className="d-none d-lg-block h5h ">{props.data.about}</p>
             <div className="col-12 row">
               <div className="col-12 col-lg-6 row">
-                <a className="col-6" href="https://play.google.com/store/apps/details?id=com.aloo.userapp&hl=en&gl=US"><img className="w-100" src="play.png" alt=""/></a>
-                <a className="col-6" href="https://apps.apple.com/us/app/aloo-app-customer/id1645615723"><img className="w-100"src="app.png" alt=""/></a>
+                <a className="col-6" href=""><img className="w-100" src="play.png" alt=""/></a>
+                <a className="col-6" href=""><img className="w-100"src="app.png" alt=""/></a>
               </div>
               <h6 className="col-12 col-lg-6 text-center">حمل التطبيق الآن</h6>  
             </div>
