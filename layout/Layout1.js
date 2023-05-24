@@ -88,7 +88,7 @@ crossOrigin="anonymous"></script>
     <div className="tooltip coloric">Youtube</div>
     <span><i id="coloric" className="fab coloric  fa-linkedin"></i></span>
   </a>:""}
-  <span className="ppp">aloo_com_sa</span>
+  <span className="ppp">alsama_com_sa</span>
   <a  href={`https://api.whatsapp.com/send?phone=${info.whats}`}><i id="coloric"  className="fab fa-whatsapp   "></i></a>
   <a className="ppp" href={`tel:0566642792}`}>{info.whats}</a>
 </div>
